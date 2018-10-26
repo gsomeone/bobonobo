@@ -5,7 +5,7 @@ window.onload=function(){
 
 
 
-    var client = mqtt.connect('mqtts://2fac2a74:6b1467441becad02@broker.shiftr.io', {
+    var client = mqtts.connect('mqtts://2fac2a74:6b1467441becad02@broker.shiftr.io', {
       clientId: 'javascript'
     });
 
